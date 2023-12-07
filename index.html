@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>BR-Architect</title>
+		<link rel="stylesheet" href="./styles.css" />
+	</head>
+	<body>
+		<header id="home">
+			<div class="overlay" id="myNav">
+				<a href="javascript:void(0)" onclick="closeNav()" class="close">
+					<img src="./images/close.svg" alt="close icon image"
+				/></a>
+				<div class="overlay__content">
+					<a href="#home">home</a>
+					<a href="#project">project</a>
+					<a href="#about">about</a>
+					<a href="#contact">contact</a>
+				</div>
+			</div>
+			<span class="open" onclick="openNav()">
+                <img src="./images/hamburger.svg" alt="hamburger icon image">
+            </span>
+			<nav class="topnav">
+				<span class="logo"> BR </span>
+				<span>Architect</span>
+				<div class="nav__link">
+					<a href="#home">home</a>
+					<a href="#project">project</a>
+					<a href="#about">about</a>
+					<a href="#contact">contact</a>
+				</div>
+			</nav>
+			<div class="center">
+				<span class="logo logo__2">BR</span>
+				<span class="log">Architect</span>
+			</div>
+		</header>
+        <main>
+			<h2>projects</h2>
+            <section class="images" id="project">
+                <div class="image">
+					<img src="./images/house1.jpg" alt="Summer house">
+						<div class="img__content">
+							<span>summer house</span>
+						</div>
+					</div>
+                <div class="image">
+					<img src="./images/house2.jpg" alt="Summer house">
+						<div class="img__content">
+							<span>brick house</span>
+						</div>
+					</div>
+                <div class="image">
+					<img src="./images/house3.jpg" alt="Summer house">
+						<div class="img__content">
+							<span>renovated house</span>
+						</div>
+					</div>
+                <div class="image">
+					<img src="./images/house4.jpg" alt="Summer house">
+						<div class="img__content">
+							<span>barn house</span>
+						</div>
+					</div>
+                <div class="image">
+					<img src="./images/house2.jpg" alt="Summer house">
+						<div class="img__content">
+							<span>summer house</span>
+						</div>
+					</div>
+                <div class="image">
+					<img src="./images/house1.jpg" alt="Summer house">
+						<div class="img__content">
+							<span>brick house</span>
+						</div>
+					</div>
+                <div class="image">
+					<img src="./images/house4.jpg" alt="Summer house">
+						<div class="img__content">
+							<span>renovated house</span>
+						</div>
+					</div>
+                <div class="image">
+					<img src="./images/house3.jpg" alt="Summer house">
+						<div class="img__content">
+							<span>barn house</span>
+						</div>
+					</div>
+				</div>
+            </section>
+			<section id="about" class="section__two">
+				<h2>about</h2>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+				<div class="cards">
+					<div class="card">
+						<img src="./images/team1.jpg" alt="team one image">
+						<div class="card__content">
+							<h3>maarc baz</h3>
+							<h4>CEO & founder</h4>
+							<p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
+							<button class="btn">contact</button>
+						</div>
+					</div>
+					<div class="card">
+						<img src="./images/team2.jpg" alt="team two image">
+						<div class="card__content">
+							<h3>jane doe</h3>
+							<h4>architect</h4>
+							<p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
+							<button class="btn">contact</button>
+						</div>
+					</div>
+					<div class="card">
+						<img src="./images/team3.jpg" alt="team three image">
+						<div class="card__content">
+							<h3>mike rose</h3>
+							<h4>Survey Engineer</h4>
+							<p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
+							<button class="btn">contact</button>
+						</div>
+					</div>
+					<div class="card">
+						<img src="./images/team4.jpg" alt="team four image">
+						<div class="card__content">
+							<h3>dan star</h3>
+							<h4>builder</h4>
+							<p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
+							<button class="btn">contact</button>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section id="contact" class="section__three">
+				<h2>contact</h2>
+				<h4>
+				Lets get in touch and talk about your next project
+				</h4>
+				<form>
+					<input type="text" name="name" id="name" placeholder="Name" required>
+					<input type="email" name="email" id="email" placeholder="Email" required>
+					<input type="text" name="name" id="name" placeholder="subject">
+					<input type="text" name="name" id="name" placeholder="Comment">
+					<button type="button" id="btn">Send Message</button>
+				</form>
+			</section>
+        </main>
+		<footer>
+			<img src="./images/map.jpg" alt="map footer image">
+			<p>
+				Powered by <a href="#">W3.css</a>
+			</p>
+		</footer>
+        <script src="./app.js"></script>
+	</body>
+</html>

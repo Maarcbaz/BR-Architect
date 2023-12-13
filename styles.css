@@ -187,9 +187,11 @@ input {
     display: block;
     outline: none;
 }
+
 input:focus {
     outline: 1px solid gray;
 }
+
 .section__three {
     margin-top: 1rem;
 }
@@ -197,21 +199,25 @@ input:focus {
 .section__three h2 {
     margin-bottom: -1rem;
 }
+
 #btn {
     padding: 10px 40px;
     background-color: var(--BLACK);
     color: var(--WHITE);
     cursor: pointer;
 }
+
 #btn:hover {
     background-color: var(--WHITE);
     color: var(--BLACK);
     transition: .5s;
 }
+
 footer img {
     margin-top: 4rem;
     width: 100%;
 }
+
 footer p {
     background-color: var(--BLACK);
     height: 50px;
@@ -220,12 +226,15 @@ footer p {
     padding-top: 1rem;
     color: var(--WHITE);
 }
+
 footer p a {
     color: var(--WHITE);
 }
+
 footer a:hover {
     color: green;
 }
+
 @media screen and (max-width: 768px) {
     main {
         width: min(100% - 7vw);
@@ -314,6 +323,7 @@ footer a:hover {
     .center {
         left: 26%;
     }
+
     input {
         width: 85%;
     }
